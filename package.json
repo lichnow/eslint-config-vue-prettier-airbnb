@@ -1,6 +1,6 @@
 {
   "name": "@loveyunk/eslint-config-vue-prettier-airbnb",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "vue lint config for airbnb, prettier",
   "main": "index.js",
   "author": "loveyunk <mjjccc@126.com>",
