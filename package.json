@@ -1,0 +1,38 @@
+{
+  "name": "@loveyunk/eslint-config-vue-prettier-airbnb",
+  "version": "1.0.0",
+  "description": "vue lint config for airbnb, prettier",
+  "main": "index.js",
+  "author": "loveyunk <mjjccc@126.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "eslint . --no-fix"
+  },
+  "keywords": [
+    "eslint",
+    "vue",
+    "prettier",
+    "airbnb"
+  ],
+  "devDependencies": {
+    "@vue/cli-plugin-eslint": "~4.2.0",
+    "@vue/eslint-config-airbnb": "^5.0.2",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-vue": "^6.1.2",
+    "prettier": "^1.19.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loveyunk/eslint-config-vue-prettier-airbnb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/loveyunk/eslint-config-vue-prettier-airbnb/issues"
+  },
+  "homepage": "https://github.com/loveyunk/eslint-config-vue-prettier-airbnb#readme"
+}
