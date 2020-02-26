@@ -7,5 +7,12 @@ module.exports = {
   parserOptions: {
     parser: 'babel-eslint'
   },
-  rules: {}
+  rules: {
+    'prettier/prettier': [
+      'warn',
+      {
+        singleQuote: true
+      }
+    ]
+  }
 };
