@@ -8,11 +8,6 @@ module.exports = {
     parser: 'babel-eslint'
   },
   rules: {
-    'prettier/prettier': [
-      'warn',
-      {
-        singleQuote: true
-      }
-    ]
+    'prettier/prettier': 'error'
   }
 };
